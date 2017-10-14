@@ -66,7 +66,7 @@ struct Line
 struct Plane
 {
 	Vec3 n; // normal of the plane
-	Vec3 d; // distance
+	float d; // distance
 };
 
 /* Intersect line-line 
